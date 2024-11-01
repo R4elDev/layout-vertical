@@ -55,6 +55,7 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
     background-color: yellow;
+
 }
 
 .container {
@@ -148,6 +149,65 @@ header nav a:hover {
     color: gold;
     transition: 1.5s;
 }
+
+/* BAN - TELA 3 */
+
+#ban {
+    background-color: #500205;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 80px;
+}
+
+.conjunto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#imgBan {
+    border-bottom: 3px solid white;
+}
+
+#imgBan img {
+    height: 700px;
+}
+
+#imgBan img:hover {
+    filter: drop-shadow(-5px 10px 100px rgb(199, 49, 16));
+    transition: 1.5s;
+}
+
+.escriturasBan {
+    color: white;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textoBan {
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.subBan {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.grandeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
