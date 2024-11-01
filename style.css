@@ -207,6 +207,49 @@ header nav a:hover {
     justify-content: space-between;
 }
 
+/* DIANE - 4 TELA */
+
+#diane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8D6547;
+}
+
+.grandeContainerDiane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escrituraDiane {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+#imgDiane img {
+    height: 800px;
+}
+
+#textoDiane {
+    font-size: 35px;
+}
+
+#subDiane {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
 
 
 
