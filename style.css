@@ -12,3 +12,31 @@ ul,ol,li {
     list-style: none;
 }
 
+html,body {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    padding: 32px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+
+header nav a:hover {
+    color: yellow;
+}
+
+
+
